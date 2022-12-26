@@ -377,6 +377,40 @@ p {
     height: 100%;
     width: 100%;
 }
+
+#add-btn {
+    height: 50px;
+    width: 50px;
+}
+
+.dgn-box-img {
+    position: relative;
+    padding: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(5, 5, 48, 0.8);
+    border: 10px solid #5ca7c5;
+}
+
+.text {
+    color: white;
+    text-align: center;
+}
+
+.dgn-box-img:hover .overlay {
+    opacity: 1;
+}
 /* Portfolio Sample Design end */
 
 /* Portfolio Information start */
